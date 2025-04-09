@@ -1,50 +1,52 @@
 # wqinfo
 
-## 简介
+English | [简体中文](README_zh.md)
 
-wqinfo 是一个简单而实用的 Mac 应用程序，用于快速检查系统代理设置状态。通过一键操作，您可以立即查看所有代理设置的详细信息，无需手动打开系统偏好设置。
+## Introduction
 
-## 特点
+wqinfo is a simple yet practical Mac application for quickly checking system proxy settings. With a single click, you can instantly view detailed information about all proxy settings without having to manually open System Preferences.
 
-- **一键检查**：点击应用图标即可查看所有代理设置
-- **详细信息**：显示完整的代理配置信息，包括服务器地址和端口
-- **全面覆盖**：检查以下所有代理类型：
-  - 自动发现代理
-  - 自动配置代理
-  - 网页代理(HTTP)
-  - 安全网页代理(HTTPS)
-  - SOCKS代理
+## Features
 
-## 便捷搜索
+- **One-Click Check**: Simply click the app icon to view all proxy settings
+- **Detailed Information**: Displays complete proxy configuration information, including server addresses and ports
+- **Comprehensive Coverage**: Checks all of the following proxy types:
+  - Auto Discover Proxy
+  - Auto Config Proxy
+  - Web Proxy (HTTP)
+  - Secure Web Proxy (HTTPS)
+  - SOCKS Proxy
 
-**wqinfo** 这个名称经过精心设计，特别适合 Mac 的 Spotlight 搜索（Command+Space）：
+## Convenient Search
 
-- **简短独特**：只需输入 "wq" 即可快速找到应用程序
-- **易于记忆**：名称简洁，容易记住
-- **快速访问**：通过 Spotlight 可以在不到一秒的时间内启动应用
+**wqinfo** has been carefully designed to work perfectly with Mac's Spotlight search (Command+Space):
 
-这种设计理念使得检查代理设置变得极其简单：Command+Space → 输入"wq" → 回车，即可立即查看所有代理信息。
+- **Short and Unique**: Just type "wq" to quickly find the application
+- **Easy to Remember**: The name is concise and memorable
+- **Fast Access**: Launch the app in less than a second through Spotlight
 
-## 安装方法
+This design philosophy makes checking proxy settings extremely simple: Command+Space → type "wq" → Enter, and you can immediately view all proxy information.
 
-1. 下载应用程序
-2. 将 wqinfo.app 拖到应用程序文件夹
-3. 首次运行时，可能需要在系统偏好设置中允许运行
+## Installation
 
-## 使用方法
+1. Download the application
+2. Drag wqinfo.app to your Applications folder
+3. When running for the first time, you may need to allow it in System Preferences
 
-- 直接点击应用图标
-- 或通过 Spotlight（Command+Space）搜索 "wq" 并启动
-- 查看完信息后，按回车键关闭窗口
+## How to Use
 
-## 技术实现
+- Click the app icon directly
+- Or search for "wq" via Spotlight (Command+Space) and launch
+- After viewing the information, press Enter to close the window
 
-该应用基于 Python 和 AppleScript 实现，使用 macOS 的 networksetup 命令获取代理配置信息。
+## Technical Implementation
 
-## 贡献
+The application is built with Python and AppleScript, using macOS's networksetup command to retrieve proxy configuration information.
 
-欢迎提交问题和改进建议！
+## Contribution
 
-## 许可
+Issues and improvement suggestions are welcome!
 
-MIT 许可证
+## License
+
+MIT License
